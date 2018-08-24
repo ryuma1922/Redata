@@ -1,0 +1,6 @@
+Redata
+============================
+Project created by Playragnarok @2018
+Original from zackdreaver and Joam
+
+Thai translation project from overall item and skill
