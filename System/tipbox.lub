@@ -1,0 +1,604 @@
+tbl = {
+	[1] = {
+		Title = "กล่องทิป",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00001",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/tip อีกทางเลือกหนึ่ง, คุณสามารถเปิดกล่องทิปโดยคลิกที่ไอคอนกล่องทิป..\\nกล่องทิปให้ข้อมูลที่เป็นประโยชน์สำหรับการเล่นเกม.\\nหากต้องการข้อมูลเพิ่มเติมโปรดป้อนคำที่ต้องการค้นหา ^3b488cหน้าต่างการค้นหา^000000.\n-\\n<TIPBOX>รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 160, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[2] = {
+		Title = "ความช่วยเหลือ: รายการคำสั่ง",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00002",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/h เพื่อดูคำสั่งที่เป็นประโยชน์ที่ใช้ใน Ragnarok.\\n/คุณสามารถใช้คำสั่งได้โดยพิมพ์คำสั่งดังกล่าว ^3b4888หน้าต่างแชท^000000.\n-\\n<TIPBOX>รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[3] = {
+		Title = "Character: HP",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"บ่งบอกถึงสุขภาพของตัวละคร.\\n^ff0000เมื่อ HP ถึง 0, ตัวละครของคุณจะไม่สามารถเข้าร่วมรบได้. ^000000โปรดระวังเพราะ ^ff0000ประสบการณ์การลงโทษ^000000 อาจเกิดขึ้นในบางพื้นที่.\\n\tกด Alt + END เพื่อสลับ HP/SP เมตร ON/OFF.\n--<TIPBOX>ตัวละคร: SP<INFO>4</INFO></TIPBOX>\n--<TIPBOX>กํAuto regen<INFO>12</INFO></TIPBOX>\n-\\n<TIPBOX>รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 60, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[4] = {
+		Title = "ตัวละคร: SP",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00003",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"แสดงถึงจิตวิญญาณของตัวละคร.\\nทักษะบางอย่างจะ ^3b488cบริโภค SP^000000. ^000000โปรดระวังเพราะ^ff0000 เมื่อ SP ถึง 0, ตัวละครของคุณจะไม่สามารถใช้สกิลได้^000000.\\nกด Alt + END เพื่อสลับ HP/SP เมตร ON/OFF.\n--<TIPBOX>ตัวละคร: HP<INFO>3</INFO></TIPBOX>\n--<TIPBOX>รีเฟรชอัตโนมัติ<INFO>12</INFO></TIPBOX>\n-\\n<TIPBOX>รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 },
+			{ EffectNum = 0, Twinkle = 1, StartX = 120, StartY = 305, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[5] = {
+		Title = "ตัวละคร: Level Up",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00005",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"คุณสามารถขึ้นโดยการล่ามอนสเตอร์หรือทำเควสให้ได้รับประสบการณ์.\\nเมื่อได้รับ EXP และระดับพื้นฐานคุณจะได้รับ ^3b488c Status Points^000000 ที่สามารถใช้เพื่อเพิ่ม Status ของตัวละคร.\\nโดยการดึงดูด JOBEXP และ Job Level คุณจะได้รับ ^3b488c Skill Points^000000 ที่สามารถใช้ในการเรียนรู้ทักษะ.\n--<TIPBOX>การต่อสู้: ประสบการณ์<INFO>16</INFO></TIPBOX>\n--<TIPBOX>ตัวละคร: Stats<INFO>6</INFO></TIPBOX>\n-\\n<TIPBOX>รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 10, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[6] = {
+		Title = "Stats: STR(Strength)#Stats",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละคร ของ ^3b488cความเสียหายทางกายภาพ^000000โจมตีโดยตรงเมื่อโจมตีฐานจะเพิ่มความเสียหาย.\\nและ, ^3b488cการแบก(น้ำหนัก)^000000นี้จะช่วยให้คุณสามารถดำเนินการเพิ่มเติมรายการ\n--<TIPBOX>?Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>?Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>?Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>?Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>?Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[7] = {
+		Title = "Stats: AGI(Agility)#Stats",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละคร ของ มีผลโดยตรงต่อความเร็ว ^3b488cความเร็วในการโจมตี^000000กับ ^3b488cอัตราการหลีกเลี่ยง^000000นี้จะขึ้น.\\nและ, ^3b488cการป้องกันทางกายภาพ^000000นอกจากนี้ยังได้รับผลกระทบ\n--<TIPBOX>?Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>?Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>?Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>?Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>?Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 223, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[8] = {
+		Title = "Stats: VIT(Vitality)#Stats",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละคร ของ มีผลกระทบโดยตรงต่อสมรรถภาพทางกาย ^3b488cจนถึง HP^000000ขึ้นไป.\\nและ, ^3b488cการป้องกันทางกายภาพ^000000และ ^3b488cการป้องกันด้วยเวทมนตร์^000000 และ ^3b488cการฟื้นคืน HP อัตโนมัติ^000000นอกจากนี้ยังได้รับผลกระทบ\n--<TIPBOX>?Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>?Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>?Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>?Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>?Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 236, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[9] = {
+		Title = "Stats: INT(Intelligence)#Stats",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละคร ของ ^3b488cพลังโจมตีเวทมนตร์^000000มีผลต่อโดยตรง ^3b488cความเสียหายเวทย์^000000เพิ่มขึ้น\\nและ, ^3b488cเวลาหล่อ^000000เพื่อลดระยะ ^3b488cการป้องกันด้วยเวทมนตร์^000000เพื่อยกระดับ ^3b488cจำนวน SP สูงสุด^000000เพื่อเพิ่มจำนวนเวทมนตร์\n--<TIPBOX>?Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>?Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>?Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>?Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n--<TIPBOX>?Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[10] = {
+		Title = "Stats: DEX(Dexterity)#Stats",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละคร ของ ^3b488cความเสียหายทางกายภาพที่กำหนด^000000มีผลต่อโดยตรง ^3b488cความเสียหายจากการโจมตีระยะไกล^000000ขึ้นไป.\\nและ, ^3b488cความถูกต้อง^000000ทำให้เขามีโอกาสที่จะทำให้การโจมตีประสบความสำเร็จมากขึ้น ^3b488cเวลาหล่อ^000000เพื่อลดระยะ ^3b488cพลังโจมตีเวทมนตร์^000000มันจะทำให้\n--<TIPBOX>?Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>?Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>?Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>?Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>?Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 263, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[11] = {
+		Title = "Stats: LUK(Luck)#Stats",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00006",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละคร ของ ^3b488cอัตราวิกฤติ^000000ตรงกับสัตว์ประหลาด ^3b488cความเสียหายที่สำคัญ^000000ความน่าจะเป็นของการให้.\\nและ, ^3b488cความถูกต้อง, อัตราการหลบหลีก, ความเสียหายทางกายภาพ, ความเสียหายทางเวทย์^000000ฯลฯ ส่งผลกระทบต่อ ^ff0000ประสิทธิภาพที่แตกต่างกัน Status ดังนั้นควรระมัดระวังในการลงทุนในจุดต่างๆ^000000\n--<TIPBOX>?Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n--<TIPBOX>?Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n--<TIPBOX>?Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n--<TIPBOX>?Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n--<TIPBOX>?Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 276, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[12] = {
+		Title = "Auto regen",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ถ้าคุณไม่ได้ทำหน้าที่และยืนนิ่ง, ^3b488cHP และ SP ฟื้นตัวทีละเล็กทีละน้อย^000000จะเป็น ถ้าคุณนั่งลงก็จะเพิ่มเป็นสองเท่า.\\n^ff0000ถ้าน้ำหนักเกิน 70% ก็จะไม่ฟื้นตัว^000000\n--<TIPBOX>?ตัวละคร: น้ำหนัก<INFO>13</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[13] = {
+		Title = "ตัวละคร: น้ำหนัก",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00012",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตัวละครและน้ำหนักของรายการปัจจุบัน\\nน้ำหนักคุณสามารถมีรายการได้มากเท่า ^ff0000หากน้ำหนักของรายการเกินขีด จำกัด คุณจะไม่สามารถมีรายการได้อีกต่อไป\\nน้ำหนัก สูงกว่า 70% HP และ SP จะไม่กู้คืนโดยอัตโนมัติ นอกจากนี้หากผู้เล่นมากกว่า 90% ผู้เล่นไม่สามารถโจมตีหรือใช้สกิลได้^000000\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 185, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[14] = {
+		Title = "การต่อสู้: การโจมตี",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"วางเมาส์เหนือมอนสเตอร์และเคอร์เซอร์จะเปลี่ยนเป็นดาบ\\n??, ^3b488cคลิกที่^000000คุณสามารถโจมตีด้วย.\n--<TIPBOX>?Lock-on โหมด: การโจมตีโดยอัตโนมัติ<INFO>15</INFO></TIPBOX>\n--<TIPBOX>?การต่อสู้: ประสบการณ์<INFO>16</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[15] = {
+		Title = "Lock-on โหมด: การโจมตีโดยอัตโนมัติ",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00014",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ขณะที่กดแป้น Ctrl ค้างไว้ให้โจมตีมอนสเตอร์จนกว่าพวกเขาจะฆ่า ^3b488cโจมตีโดยอัตโนมัติ^000000คุณสามารถปิดโดยการคลิกที่อื่น.\\nและ, ^3b488c/noctrlถ้าคุณทำคุณจะอยู่ในสถานะการโจมตีโดยอัตโนมัติโดยไม่ต้องกด Ctrl \\n การโจมตีโดยอัตโนมัติคือค่าดีฟอลต์ /noctrlคุณสามารถปิดโหมดการโจมตีโดยอัตโนมัติได้โดยการป้อนอีกครั้ง^000000\n--<TIPBOX>?การต่อสู้: โจมตี<INFO>14</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[16] = {
+		Title = "การต่อสู้: ประสบการณ์",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00016",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ถ้าคุณล่ามอนสเตอร์ ^3b488cประสบการณ์^000000สามารถหาได้\\nประสบการณ์ที่ได้รับแก่มอนสเตอร์จะเป็นสัดส่วนกับความเสียหายที่มอนสเตอร์ทำไว้ แต่แม้ว่าคุณจะได้รับความเสียหายเหมือนกัน แต่คนแรกที่โจมตีมอนสเตอร์นั้นจะได้รับประสบการณ์มากขึ้น\n--<TIPBOX>?การต่อสู้: โจมตี<INFO>14</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[17] = {
+		Title = "ไอเทม",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00017",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"คุณสามารถรับได้ ไอเทม ที่ตกลงบนพื้นโดยใช้ ^3b488cLeft-click^000000 ของเมาส์.\\nหยิบ ไอเทม ถูกวางไว้ใน ไอเทม window ALT+E.\n--<TIPBOX>?ไอเทม: Magnifier<INFO>18</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 150, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[18] = {
+		Title = "ไอเทม: Magnifier แว่นขยาย",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00018",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"อุปกรณ์ ไอเทม ที่ได้จากมอนสเตอร์จะแสดงเป็น ^ff0000Unknown ไอเทม^000000. คุณสามารถระบุได้ ไอเทม โดยใช้ <ไอเทม>Magnifier<INFO>611 Magnifier</INFO></ไอเทม>ที่สามารถซื้อได้จากตัวแทนจำหน่ายเครื่องมือ.\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 5, Twinkle = 1, StartX = 100, StartY = 88, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[19] = {
+		Title = "การพูดคุย: Dialog",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00019",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ปุ่ม Enter หน้าต่างแชทสามารถใช้งานได้ ถ้าคุณเขียนสิ่งที่คุณต้องการและกดปุ่ม Enter อีกครั้งกล่องโต้ตอบจะถูกส่ง\n--<TIPBOX>?การพูดคุย: ห้องสนทนา<INFO>20</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: Whisper<INFO>21</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: Party<INFO>22</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: Guild<INFO>23</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: หน้าต่างแชท<INFO>25</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: Show content<INFO>26</INFO></TIPBOX>\n--<TIPBOX>?การสกัดกั้น<INFO>28</INFO></TIPBOX>\n--<TIPBOX>?อารมณ์<INFO>27</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: บันทึกโต้ตอบ<INFO>24</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 280, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[20] = {
+		Title = "การพูดคุย: ห้องสนทนา",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00020",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/ห้องสนทนา หรือ /chatโดย ^3b488cห้องสนทนา^000000คุณสามารถเปิดหน้าต่างเพื่อสร้าง และ /q ตามคำสั่ง ห้องสนทนาคุณสามารถออกไปได้\n--<TIPBOX>?การพูดคุย: Dialog<INFO>19</INFO></TIPBOX>\n--<TIPBOX>?การพูดคุย: บันทึกโต้ตอบ<INFO>24</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[21] = {
+		Title = "การพูดคุย: กระซิบ",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00021",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"หน้าต่างแชท ในช่องด้านซ้าย ตัวละครหากคุณป้อนชื่อ ตัวละครไปยัง กระซิบคุณสามารถ.\n----^3b488cAlt + H^000000? ^3b488cรายการคำ^000000 เปิดหน้าต่าง กระซิบ คุณสามารถเห็นฝ่ายตรงข้ามได้.\n--<TIPBOX>?Block<INFO>28</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 30, StartY = 260, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[22] = {
+		Title = "การพูดคุย: Party",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00022",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"กล่องโต้ตอบกับสมาชิกปาร์ตี้สามารถทำได้ด้วย% หรือ CTRL + ENTER\\nและ, หน้าต่างแชท ด้านขวา ^3b488cแวดวงสีน้ำเงิน^000000กด ^3b488cตั้งค่ากลุ่มที่ได้รับ^000000คุณสามารถ\n--<TIPBOX>?การพูดคุย: Guild<INFO>23</INFO></TIPBOX>\n--<TIPBOX>?Party ระบบ<INFO>29</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[23] = {
+		Title = "การพูดคุย: Guild",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00023",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Guildกล่องโต้ตอบกับสมาชิกสามารถทำได้โดยใช้คำที่คุณต้องการ / gc หรือ $ หรือ ALT + ENTER\\nและ, หน้าต่างแชท ด้านขวา ^3b488cแวดวงสีน้ำเงิน^000000กด ^3b488cตั้งค่ากลุ่มที่ได้รับ^000000คุณสามารถ.\n--<TIPBOX>?การพูดคุย: Party<INFO>22</INFO></TIPBOX>\n--<TIPBOX>?Guild ระบบ<INFO>30</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[24] = {
+		Title = "การพูดคุย: บันทึกโต้ตอบ",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00024",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/จับ หรือ /savechat บันทึกการสนทนาเป็นไฟล์ \\nเนื้อหาของไดอะล็อกจะถูกเก็บไว้ในโฟลเดอร์แชทของโฟลเดอร์ที่ติดตั้ง Ragnarok ไว้\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[25] = {
+		Title = "การพูดคุย: หน้าต่างแชท",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00025",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"^3b488cF10^000000โดย หน้าต่างแชท คุณสามารถปรับขนาดของหน้าจอได้ \\ nAlt + F10หน้าต่างแชทโดย เปิด/ปิด คุณสามารถ.\n--<TIPBOX>?การพูดคุย: แสดงเนื้อหา<INFO>26</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		},
+		PageEX = {
+			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 150, DistX = 0, DistY = 0, MoveTime = 0 }
+		}
+	},
+	[26] = {
+		Title = "การพูดคุย: แสดงเนื้อหา",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00026",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"หน้าต่างแชทบน /notalkmsgคุณสามารถใส่ได้ หน้าต่างแชทไม่แสดงบน เปิด/ปิด \\n/notalkmsg2ถ้าคุณป้อน Guildเนื้อหาแชทรวมทั้งม้า หน้าต่างแชทไม่ต้องแสดง. เปิด/ปิด\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[27] = {
+		Title = "อารมณ์",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00027",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ALT + Lหรือกด / เพื่อเข้าสู่ ^3b488cอารมณ์^000000คุณสามารถดูรายการ\\n\\nCtrlกดค้างไว้ -, =, \\กดเพื่อใช้กรรไกรหินและบูมเมอแรงคุณสามารถ.\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[28] = {
+		Title = "Block",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00028",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/การสกัดกั้น ตัวละครคนหรือ /ex ตัวละครใช้ได้ตามชื่อ ตัวละครม้าและ กระซิบ และอื่น ๆ เพื่อปิด / ปิด ตัวละครคนหรือ /in ตัวละครปล่อยตามชื่อคุณสามารถ.\\nและ, /บล็อกทั้งหมด, /exall, /ปล่อยทั้งหมด, /inall ด้วยคำสั่ง Dialog แบบเต็มรูปแบบ กระซิบบล็อกหรือเลิกบล็อกคุณสามารถ.\\n อุดตัน ตัวละคร ของ ถ้าคุณต้องการตรวจสอบรายการคุณสามารถดูรายการที่มี / block หรือ / ex\\n^ff0000กด (Y/N)คุณจะต้องเลือกอย่างระมัดระวัง^000000\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[29] = {
+		Title = "Party ระบบ",
+		Search = 1,
+		Image = "ภฏภ๚ภฮลอฦไภฬฝบ\\tipbox\\tip00029",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/ที่เกิดขึ้น Partyชื่อหรือ /organize Partyตามชื่อ Partyคุณสามารถสร้างได้.\\n/ถอนหรือ /leaveโดย Partyปล่อยให้คุณสามารถ.",
+			"Partyเพื่อจัดรูปแบบ Partyถ้าคุณเป็นผู้นำ, ตัวละครโดยการคลิกที่ปุ่มขวา 'Partyเชิญไปที่ /เชิญ ตัวละครตามชื่อ Partyเชิญมาคุณสามารถ.\\nPartyถ้าคุณต้องการวางวงกลม /การขับไล่ ตัวละครชื่อหรือ /expel ตัวละครตามชื่อ ^3b488cถ้าคุณเป็นผู้นำ Party^000000ของ Partyละทิ้งวงกลมคุณสามารถ.\\n^ff0000กด (Y/N)คุณจะต้องเลือกอย่างระมัดระวัง.^000000\n--<TIPBOX>?การพูดคุย: Party<INFO>22</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[30] = {
+		Title = "Guild ระบบ",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"/Guild Guild คุณสามารถสร้างกิลด์ตามชื่อ เมื่อต้องการสร้าง Guild จะมีการใช้ Empoli \\n Guildข้อมูลเกี่ยวกับ ALT + G สามารถมองเห็นได้เป็น\\n^ff0000Guildต้นแบบ Guildต้นแบบคุณสามารถ. Guildยกเว้นนาย Guildไม่มีวงกลม /รื้อ Guildถ้าคุณป้อน Guildจะถูกยุบ.\\nกด (Y/N)คุณจะต้องเลือกอย่างระมัดระวัง^000000\n--<TIPBOX>?การพูดคุย: Guild<INFO>23</INFO></TIPBOX>\n--<TIPBOX>?Guild: Position<INFO>31</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[31] = {
+		Title = "Guild: Position",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Guildกำหนดตำแหน่งของสมาชิก Guild ในฟิลด์การตั้งตำแหน่งของหน้าต่างข้อมูลคุณสามารถ. Guild ชื่องานสามารถได้รับสิทธิ์ต่างๆหรือปรับค่าประสบการณ์ที่จำเป็นสำหรับการเติบโตของ Guild คุณสามารถ.\n--<TIPBOX>?Guild ระบบ<INFO>30</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[32] = {
+		Title = "Game หน้าต่างตั้งค่า",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"กด ESC เพื่อเปิดเกม หน้าต่างตั้งค่า.\n--<TIPBOX>?Game ตัวเลือก: Game การตั้งค่า<INFO>33</INFO></TIPBOX>\n--<TIPBOX>?Game ตัวเลือก: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[33] = {
+		Title = "Game ตัวเลือก: Game การตั้งค่า",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"คุณสามารถควบคุมต่างๆ ตัวเลือก เพื่อให้เกมของคุณทำงานได้ดีขึ้น.\n--<TIPBOX>?Game การตั้งค่า: Advanced การตั้งค่า<INFO>40</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[40] = {
+		Title = "Game การตั้งค่า: Advanced การตั้งค่า",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"คุณสามารถควบคุมกราฟิกเกมได้\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[41] = {
+		Title = "Game ตัวเลือก: Hotkey",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"คุณสามารถเพิ่มหรือแก้ไขฮ็อตคีย์ได้.\n--<TIPBOX>?Hotkey: Macro<INFO>42</INFO></TIPBOX>\n--<TIPBOX>?Hotkey: Skill bar<INFO>43</INFO></TIPBOX>\n--<TIPBOX>?Hotkey: การต่อสู้ โหมด<INFO>44</INFO></TIPBOX>\n--<TIPBOX>?Hotkey: F1~F12<INFO>45</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[42] = {
+		Title = "Hotkey: Macro",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ALT+M คุณสามารถแก้ไขรายการ Macro คุณสามารถใช้มาโครได้โดยการกด ALT + 1 ~ 0.\n--<TIPBOX>?Game ตัวเลือก: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[43] = {
+		Title = "Hotkey: Skill bar",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Skill bar(F12)ลงทะเบียนทักษะหรือรายการที่ใช้บ่อยดับเบิลคลิกที่สล็อตโดยใช้เมาส์หรือใช้ปุ่มลัดเพื่อใช้งานได้อย่างง่ายดายคุณสามารถ.\\nเป็นครั้งแรก Skill barโดยทั่วไปสอดคล้องกับปุ่ม F1 ถึง F9 และตัวเลือกเกม> Hotkey ที่สอดคล้องกัน Hotkeyเปลี่ยนคุณสามารถ. 2~4เวลา Skill barของ Hotkeyมันเป็น การต่อสู้ โหมดใช้เท่านั้น คุณสามารถ.\\nSkill barคุณสามารถเลือกสกิลหรือไอเทมด้วยเมาส์และลากลงในช่องว่าง\n--<TIPBOX>?Game ตัวเลือก: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[44] = {
+		Title = "Hotkey: การต่อสู้ โหมด",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"การต่อสู้ โหมดล็อคคุณลักษณะการแชท Skill barลงทะเบียนใน Hotkeyบนแป้นพิมพ์ของคุณ /bmโดย เปิด/ปิด คุณสามารถ..\\n^ff0000การต่อสู้ โหมดโดยค่าเริ่มต้นการแชทจะถูกล็อค แต่กดปุ่ม Enter หน้าต่างแชทสามารถใช้งานได้^000000\n--<TIPBOX>?Game ตัวเลือก: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[45] = {
+		Title = "Hotkey: F1~F12",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"F1~F9 : Skill barใช้ทักษะที่ลงทะเบียนมาคุณสามารถ.\\nF10 : หน้าต่างแชทปรับขนาดของคุณสามารถ.\\nF11 : ปิดหน้าต่างทั้งหมดทิ้งเฉพาะหน้าต่างข้อมูลหลักและหน้าต่างโต้ตอบ\\nF12 : Skill barสามารถเปิดและปิดได้\n--<TIPBOX>?Game ตัวเลือก: Hotkey<INFO>41</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1000] = {
+		Title = "Tip box: ไอเทม",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"คุณสามารถดูรายการคำแนะนำได้\\nเคล็ดลับที่ไม่ได้อยู่ในรายการสามารถดูได้จากการค้นหาและใช้เคล็ดลับใหม่ ๆ ต่อไป บทนำจะได้รับการอัปเดต.\n--<TIPBOX>?ตัวละคร<INFO>1001</INFO></TIPBOX>\n--<TIPBOX>?Gameplay<INFO>1002</INFO></TIPBOX>\n--<TIPBOX>?การสื่อสาร<INFO>1003</INFO></TIPBOX>\n--<TIPBOX>?Ragnarok World<INFO>4000</INFO></TIPBOX>"
+		}
+	},
+	[1001] = {
+		Title = "ตัวละคร",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"<TIPBOX>?ตัวละคร: Level Up<INFO>5</INFO></TIPBOX>\n--<TIPBOX>?ตัวละคร: HP และ SP<INFO>3</INFO></TIPBOX>\n--<TIPBOX>?ตัวละคร: Status<INFO>6</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1002] = {
+		Title = "Gameplay",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"<TIPBOX>?การต่อสู้<INFO>14</INFO></TIPBOX>\n--<TIPBOX>?ไอเทม<INFO>17</INFO></TIPBOX>\n--<TIPBOX>?Game หน้าต่างตั้งค่า<INFO>32</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[1003] = {
+		Title = "การสื่อสาร",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"<TIPBOX>?การพูดคุย<INFO>19</INFO></TIPBOX>\n--<TIPBOX>?Party<INFO>29</INFO></TIPBOX>\n--<TIPBOX>?Guild<INFO>30</INFO></TIPBOX>\n-\\n<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4000] = {
+		Title = "The world of Ragnarok",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ขั้นตอนของการผจญภัยในโลก Ragnarok ส่วนใหญ่เป็นมนุษย์ Midgard, \n----แผ่นดินที่อยู่ไกลเกินกว่ามิติที่มีนางฟ้าและยักษ์ใหญ่อยู่และมีการ จำกัด พื้นที่ที่ไม่รู้จักซึ่งพบโดยผู้ที่เต็มไปด้วยนักสำรวจ\n---\n--<TIPBOX>?Midgard Continent<INFO>4001</INFO></TIPBOX>\n---\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4001] = {
+		Title = "Midgard Continent",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Midgard เป็นวัดที่ Cynics, Asmodians และมนุษย์ต่อสู้เพื่อความเชื่อของกันและกัน, \n----เป็นศูนย์กลางชีวิตของมนุษย์ที่รอดตายและทวีปกลาง \n----มีสามประเทศที่เป็นแกนหลักตามแนวชายฝั่งตะวันออกเฉียงใต้ของ Midgard Continent\n---\n--<TIPBOX>?Rune Midgard Kingdom<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?Schwartzwald Republic<INFO>4040</INFO></TIPBOX>\n--<TIPBOX>?Arunafeltz country<INFO>4050</INFO></TIPBOX>\n---\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4004] = {
+		Title = "Rune Midgard Kingdom",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ประเทศที่สร้างโดยวีรบุรุษที่เข้าร่วมในพระวิหาร\n----เป็นระบบที่มีพระมหากษัตริย์เป็นศูนย์กลางในการเชื่อมต่อเครือญาติเจ็ดครอบครัวซึ่งครอบคลุมพื้นที่ภาคใต้ตามเทือกเขา Myogneil.\n----เราขอแนะนำให้นักผจญภัยเตรียมความพร้อมสำหรับสิ่งเลวร้ายที่สุดที่คุกคามผู้คนของกษัตริย์และพวกเขากำลังให้การสนับสนุนเป็นอย่างมาก\n---\n--<TIPBOX>?ถนนหลวง Prontera<INFO>4005</INFO></TIPBOX>\n--<TIPBOX>?มหัศจรรย์เมืองเกฟเฟ็น<INFO>4006</INFO></TIPBOX>\n--<TIPBOX>?เมืองทะเลทราย Morocc<INFO>4007</INFO></TIPBOX>\n--<TIPBOX>?ภูเขาเมือง bayon<INFO>4008</INFO></TIPBOX>\n--<TIPBOX>?เมืองฮาร์เบอร์อัลเบอร์ต้า<INFO>4009</INFO></TIPBOX>\n--<TIPBOX>?เมืองชายแดน Aldebaran<INFO>4010</INFO></TIPBOX>\n--<TIPBOX>?เมืองนันทนาการ Komodo<INFO>4011</INFO></TIPBOX>\n--<TIPBOX>?หมู่บ้านชาวเขา Umbra<INFO>4012</INFO></TIPBOX>\n--<TIPBOX>?ดาวเทียมเมือง Izuru<INFO>4013</INFO></TIPBOX>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4001</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>",
+			"ด้วยวีรบุรุษกษัตริย์ Goeborg เป็นแกนหลักคนที่ถูกเลือกโดยราชบัลลังก์ใน Heine, Nerius, Walter, Richard, Wigner และR?genburgประสบความสำเร็จในการครองราชย์ ในพระราชวงศ์ก่อนฤดูหนาวที่เต็มไปมามีการประกวดล่าสัตว์เพื่อกำจัดของเสีย"
+		}
+	},
+	[4005] = {
+		Title = "Royal Prontera",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"เป็นศูนย์กลางของ rune-midgats royal palace และเป็นถนนหลวงกับพระราชวัง\n----เป็นที่เงียบสงบเนื่องจากมีทุ่งขนาดใหญ่ที่ด้านหลังของเทือกเขา Myogneil และมีความเสียหายน้อยกว่าพื้นที่อื่น ๆ\n----มีวิหารหลายแห่งที่อุทิศให้ลอร์ดโอดินและผู้ที่มีอัศวินและเป็นนักบวชและอัศวิน\n---\n--<NAVI>[วิหาร Prontera]<INFO>prontera,235,315,0,101,0</INFO></NAVI>\n--<NAVI>[สำนักงานของสงครามครูเสด]<INFO>prt_cas,248,102,0,101,0</INFO></NAVI>\n--<NAVI>[อัศวินแห่ง Prontera]<INFO>prontera,49,342,0,101,0</INFO></NAVI>\n--<NAVI>[อาราม Saint Capitolina]<INFO>prt_monk,180,205,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4006] = {
+		Title = "Magic city Geffen",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"เมืองผู้วิเศษที่ตั้งอยู่เหนือพื้นที่ชุ่มน้ำ Furontera West Wetlands มีข่าวลือว่ามี Mato Paget Tower อยู่ตรงกลางและเป็นที่ตั้งของเมือง Gephenia ในตำนาน บ่อยครั้งที่นักมายากลจะจัดการแข่งขันเวทมนตร์ Geppen\n---\n--<NAVI>[นักมายากล Guild]<INFO>geffen_in,164,124,0,101,0</INFO></NAVI>\n--<NAVI>[ด้านบนของหอ Gepen]<INFO>gef_tower,111,27,0,101,0</INFO></NAVI>\n--<NAVI>[หอสังเกตการณ์ที่มีชื่อเสียงของ Gefen]<INFO>gef_fild07,179,242,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4007] = {
+		Title = "Desert city Morocc",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"หลังจากที่วัดเสร็จสิ้นดร. Morok ลงไปที่ Midgard Continent Morocca ถูกปิดผนึกโดยกิจกรรมของ Majestic Tanatos แต่ในผลพวงของตรามันก็กลายเป็นทะเลทราย เมืองถูกสร้างขึ้นรอบ ๆ โอเอซิสและชื่อของเมืองกลายโมร็อกโกเพราะถูกปิดผนึกไว้กับ Morok ในขณะที่ Morok แตกตราประทับเมื่อเร็ว ๆ นี้เมืองและบริเวณใกล้เคียงทะเลทรายถูกทำลายอีกครั้งและเมืองถูกสร้างขึ้นมาใหม่\n---\n--<NAVI>[ขโมย Guild]<INFO>moc_prydb1,39,126,0,101,0</INFO></NAVI>\n--<NAVI>[ฆาตกร Guild]<INFO>moc_fild16,206,290,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>",
+			"พร้อมกับวัฒนธรรมที่เป็นเอกลักษณ์ของเมืองทะเลทรายที่พัฒนาขึ้นรอบ ๆ โอเอซิสมีอาคารลึกลับเก่าแก่ป้อมปราการแห่งการป้องกันภัยคุกคามและมดทะเลทราย\n---\n--<NAVI>[ปิรามิด]<INFO>moc_ruins,64,162,0,101,0</INFO></NAVI>\n--<NAVI>[บุคคลลึกลับ]<INFO>moc_fild19,105,100,0,101,0</INFO></NAVI>\n--<NAVI>[ฟอร์ซานซาน]<INFO>cmd_fild08,98,129,0,101,0</INFO></NAVI>\n--<NAVI>[ถ้ำแอนตาร์กติก]<INFO>cmd_fild08,326,351,0,101,0</INFO></NAVI>\n----"
+		}
+	},
+	[4008] = {
+		Title = "Mountain city Payon",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"Rune - เมืองในเทือกเขาทางตะวันออกเฉียงใต้ของ Midtown เนื่องจากภูเขาและป่าที่สลับซับซ้อนซึ่งถูกตัดการเชื่อมต่อจากภายนอกจึงทำให้เกิดวัฒนธรรมที่เป็นเอกลักษณ์ มีเรื่องราวมากมายเกี่ยวกับการได้รับความกรุณาของน้ำส่วนตัวหรือน้ำใหม่ มีนักล่าและนักล่าที่ดีหลายคนและมีหมู่บ้านถ้ำอยู่ในถ้ำทางเหนือ\n---\n--<NAVI>[ราศีธนู Guild]<INFO>payon_in02,64,71,0,101,0</INFO></NAVI>\n--<NAVI>[เพย์ตันพระพุทธรูป]<INFO>pay_arche,137,31,0,101,0</INFO></NAVI>\n--<NAVI>[หมู่บ้านปอด]<INFO>pay_dun03,155,147,0,101,0</INFO></NAVI>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4009] = {
+		Title = "Port city Alberta",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"เป็นเมืองที่มีท่าเรือเชื่อมต่อทางน้ำทั้งหมดของ Midgard และยังเป็นที่รู้จักกันในชื่อเมืองการค้าเนื่องจากสมาคมผู้ขายตั้งอยู่ เป็นสถานที่ที่ผู้คนที่ชื่นชอบการเดินทางที่ไม่รู้จักผ่านทางน้ำและผู้ที่อ่านกระแสเงินได้มารวมกัน\n---\n--<NAVI>[?? Guild]<INFO>alberta_in,56,43</INFO></NAVI>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4010] = {
+		Title = "Border city Aldebaran",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"ตั้งอยู่ทางตอนเหนือของเทือกเขา Myogneil ใกล้กับ Schwartzwald เป็นเมืองที่สวยงามมีคลองทอดยาวตลอดแนวรอบหอนาฬิกาขนาดใหญ่ใจกลางเมือง มีด่านชายแดนอยู่ทางเหนือ\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4011] = {
+		Title = "Recreational city Comodo",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"หมู่บ้านลึกลับที่มีถ้ำอยู่ใต้ชายฝั่งตะวันตกเฉียงใต้ เนื่องจากมีนักท่องเที่ยวจำนวนมากมาเยี่ยมเยียนเพื่อจุดประสงค์ในการพักผ่อนหย่อนใจจึงได้มีการพัฒนาผลิตภัณฑ์พิเศษเฉพาะท้องถิ่นจำนวนมาก บริเวณใกล้เคียง ได้แก่ บึงป่าและถ้ำลับซึ่งเป็นสถานที่ที่น่าสนใจสำหรับนักสำรวจ\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4012] = {
+		Title = "Tribal village Umbala",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"หมู่บ้านชนเผ่าเล็ก ๆ ในพื้นที่ป่าทางตอนเหนือของโคโมโด เป็นหมู่บ้านของเผ่าที่อาศัยอยู่ในลักษณะเดียวกับที่พวกเขาอาศัยอยู่ในวิถีชีวิตแบบดั้งเดิมนอกเหนือจากอารยธรรม มีเรื่องราวที่เกิดขึ้นจากจำนวนโลกของ Egudrasil เราไม่ใช้ภาษาราชการของทวีป\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4013] = {
+		Title = "Satellite city Izlude",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"เมืองเล็ก ๆ บนชายฝั่งตะวันออกของ Frontera เป็นเมืองที่มีดาวเทียมขึ้นเพื่อช่วยเหลือทุน Frontera มีสถาบันที่สนับสนุนการเพาะปลูกนักผจญภัยโรงเรียน Critura และ Guild ตรวจสอบและยังทำหน้าที่เป็นท่าเรือขนาดเล็ก\n---\n--<NAVI>[การตรวจสอบ Guild]<INFO>izlude_in,74,172</INFO></NAVI>\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4004</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4040] = {
+		Title = "Schwartzwald Republic",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"เมืองแห่งภูมิปัญญาเมืองหลวงของ Yuno อยู่ทางตอนเหนือของประเทศ มันใช้สาธารณรัฐกับประธานาธิบดีและรัฐสภาและเป็นประเทศที่อุตสาหกรรมมีการพัฒนาเนื่องจาก rekenber บริษัท ใหญ่\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4001</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	},
+	[4050] = {
+		Title = "Arunafeltz country",
+		Search = 1,
+		Image = "",
+		Imgcoord = { Position = 5, Size = 100 },
+		Page = {
+			"เป็นประเทศระฆังของแท้สอดคล้องกับเทพธิดา Freyya Odin ใน Runin-Midgatsu ไม่อยู่ในรูปร่างที่ดีเพราะมีแรงเสียดทานในอดีตหลังวัด Arunafeltz เป็นประเทศที่สร้างขึ้นโดยผู้ที่ถูกข่มเหงศาสนา มีวัดใหญ่ Seth Raniel ในเมืองหลวง Rachel\n---\n--<TIPBOX>?กลับไปที่หน้าก่อนหน้า<INFO>4001</INFO></TIPBOX>\n--<TIPBOX>?รายชื่อเคล็ดลับเพิ่มเติม<INFO>1000</INFO></TIPBOX>"
+		}
+	}
+}
+
+function main()
+	for DocumentNum, INFO in pairs(tbl) do
+		result, msg = AddTip(DocumentNum, INFO.Title, INFO.Search, INFO.Image)
+		if not result then
+			return false, msg
+		end
+		result, msg = AddImgcoord(DocumentNum, INFO.Imgcoord.Position, INFO.Imgcoord.Size)
+		if not result then
+			return false, msg
+		end
+		if not INFO.PageEX then
+			result, msg = AddPageEx(DocumentNum, -1, 0, 0, 0, 0, 0, 0, 0)
+			if not result then
+				return false, msg
+			end
+		else
+			for k, v in pairs(INFO.PageEX) do
+				result, msg = AddPageEx(DocumentNum, v.EffectNum, v.Twinkle, v.StartX, v.StartY, v.DistX, v.DistY, v.MoveTime)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		for k, v in pairs(INFO.Page) do
+			result, msg = AddPage(DocumentNum, v)
+			if not result then
+				return false, msg
+			end
+		end
+	end
+	return true, "good"
+end

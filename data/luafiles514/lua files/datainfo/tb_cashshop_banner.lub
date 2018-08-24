@@ -1,0 +1,17 @@
+tb_cashshop_banner = {
+	[1] = {
+		"img_ad1.bmp",
+		"https://google.com"
+	},
+	[2] = {
+		"img_ad2.bmp",
+		"https://google.com"
+	},
+	[3] = { "img_ad3.bmp", "https://google.com" }
+}
+
+function set_cashshop_banner()
+	for key, value in ipairs(tb_cashshop_banner) do
+		add_cashshop_banner(value[1], value[2])
+	end
+end
